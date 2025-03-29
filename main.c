@@ -10,7 +10,7 @@ int main()
     z = x / 10;
     y = x % 10;
     printf("%d %d\n", z, y);
-    if (z == 1 && y > 0){
+    if (z == 1 && y => 0){
         switch(y){
         case 9:
             printf("ninteen");
@@ -20,7 +20,6 @@ int main()
             break;
         case 7:
             printf("seventeen");
-
 
         case 6:
             printf("sixteen");
